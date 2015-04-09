@@ -19,7 +19,7 @@ def main():
 
     myMaze.generateMaze()
     myMaze.explore(myMaze.entrance[0],myMaze.entrance[1])
-    myMaze.printSolution()
+    #myMaze.printSolution()
     myMaze.Draw()
 
     myCharacter = Character(myMaze)
